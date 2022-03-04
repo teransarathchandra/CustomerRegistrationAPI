@@ -9,7 +9,7 @@ namespace CustomerRegistration.Modules
     {
         public int CustomerID { get; set; }
         public string CustomerName { get; set; }
-        public string PhoneNumber { get; set; }
+        public Int32 PhoneNumber { get; set; }
         public string Address { get; set; }
         public string Email { get; set; }
     }
